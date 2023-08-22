@@ -1,0 +1,17 @@
+/* Add these media queries at the end of your existing CSS */
+
+/* Small screens (mobile phones) */
+@media only screen and (max-width: 600px) {
+    .inner-box {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    .circle {
+        width: 120px; /* Adjust circle size for smaller screens */
+        height: 120px;
+    }
+}
+
+/* Medium screens (tablets) */
+
